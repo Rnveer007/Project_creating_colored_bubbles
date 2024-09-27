@@ -11,11 +11,18 @@ body{
     position: relative;
     cursor: pointer;
 }
+#result_display {
+    display: inline-block;
+}
 
 #result_display button{
-    margin:  1rem;
+    margin:  0.5rem;
     width: 80px;
     height: 30px;
+    cursor: pointer;
+}
+
+#result_display button:hover{
     cursor: pointer;
 }
 

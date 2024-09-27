@@ -19,6 +19,8 @@
 
 
     <script>
+
+        
        let btn_reset = document.querySelector("#reset");
        let btn_undo = document.querySelector("#undo");
        let btn_redo = document.querySelector("#redo");
@@ -30,7 +32,8 @@
 
 
        result.addEventListener("click" , function(event){
-        if(event.target.nodeName === "BUTTON")return
+           if(event.target.nodeName === "DIV")return
+           if(event.target.nodeName === "BUTTON")return
         let x = event.pageX;
         let y = event.pageY;    
 
