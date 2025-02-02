@@ -26,6 +26,7 @@
        let btn_redo = document.querySelector("#redo");
        let display =document.querySelector("#result_display");
        result = document.body
+       
        let arr = [] ;   // Array to store dots for undo
        let redoArr = [] ;// Array to store dots for redo
 
@@ -34,6 +35,7 @@
        result.addEventListener("click" , function(event){
            if(event.target.nodeName === "DIV")return
            if(event.target.nodeName === "BUTTON")return
+           
         let x = event.pageX;
         let y = event.pageY;    
 

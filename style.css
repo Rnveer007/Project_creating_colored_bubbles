@@ -22,6 +22,11 @@ body{
     cursor: pointer;
 }
 
+#result_display button:disabled{
+  opacity: 0.99;
+  background-color: rgb(160, 158, 158);
+}
+
 #result_display button:hover{
     cursor: pointer;
 }
@@ -32,5 +37,8 @@ body{
     border-radius: 50%;
     position: absolute;
     pointer-events: none;
+    cursor: pointer;
 }
+
+
 
